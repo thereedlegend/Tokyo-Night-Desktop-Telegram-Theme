@@ -1,9 +1,10 @@
 // Tokyo Night Theme for iPhone/iOS Alternative Clients
 // ⚠️ ВНИМАНИЕ: Официальный Telegram для iOS НЕ поддерживает кастомные темы!
-// Этот файл может работать только в альтернативных клиентах типа Nicegram
+// Приведена в полное соответствие с Desktop версией
+// Единый цвет фонов: #141520 (-15437536)
 
 // Main background and text colors
-windowBackgroundWhite=-15329497
+windowBackgroundWhite=-15437536
 windowBackgroundWhiteBlackText=-3355444
 windowBackgroundWhiteGrayText=-6384199
 windowBackgroundWhiteGrayText2=-6384199
@@ -41,7 +42,7 @@ windowBackgroundWhiteRedText6=-523762
 windowBackgroundGray=-13816580
 
 // Action bar (header)
-actionBarDefault=-14671082
+actionBarDefault=-15437536
 actionBarDefaultIcon=-6384199
 actionBarDefaultIconActive=-8726281
 actionBarDefaultTitle=-3355444
@@ -55,7 +56,7 @@ actionBarDefaultSubmenuItemIcon=-6384199
 actionBarDefaultSubmenuBackground=-13816580
 
 // Dialogs
-dialogBackground=-14671082
+dialogBackground=-15437536
 dialogTextBlack=-3355444
 dialogTextGray2=-6384199
 dialogIcon=-6384199
@@ -64,7 +65,7 @@ dialogButtonSelector=-13158600
 dialogLinkSelection=-13158600
 
 // Dialog controls
-dialogInputField=-15329497
+dialogInputField=-15437536
 dialogInputFieldActivated=-8726281
 dialogCheckboxSquareBackground=-8726281
 dialogCheckboxSquareCheck=-1
@@ -100,7 +101,7 @@ chats_actionPressedBackground=-13158600
 chats_actionIcon=-1
 
 // Left menu
-chats_menuBackground=-14671082
+chats_menuBackground=-15437536
 chats_menuName=-3355444
 chats_menuPhone=-6384199
 chats_menuItemText=-6384199
@@ -133,8 +134,8 @@ chat_inSentClock=-1614679
 chat_mediaSentCheck=-6657178
 chat_mediaSentClock=-1614679
 
-// Message panel (ИСПРАВЛЕНО)
-chat_messagePanelBackground=-15329497
+// Message panel (ИСПРАВЛЕНО - ЕДИНЫЙ ФОН)
+chat_messagePanelBackground=-15437536
 chat_messagePanelText=-3355444
 chat_messagePanelHint=-9013641
 chat_messagePanelSend=-8726281
@@ -142,10 +143,10 @@ chat_messagePanelIcons=-6384199
 chat_fieldOverlayText=-3355444
 
 // Emoji panel (ИСПРАВЛЕНО - ЕДИНЫЙ ФОН)
-chat_emojiPanelBackground=-15329497
+chat_emojiPanelBackground=-15437536
 chat_emojiPanelIcon=-6384199
 chat_emojiPanelIconSelected=-8726281
-chat_emojiPanelIconSelector=-15329497
+chat_emojiPanelIconSelector=-15437536
 chat_emojiPanelBackspace=-6384199
 chat_emojiPanelEmptyText=-9013641
 
@@ -232,14 +233,14 @@ fastScrollActive=-8726281
 fastScrollText=-1
 
 // In-app player
-inappPlayerBackground=-15329497
+inappPlayerBackground=-15437536
 inappPlayerPlayPause=-8726281
 inappPlayerTitle=-3355444
 inappPlayerPerformer=-6384199
 inappPlayerClose=-6384199
 
 // Player
-player_background=-14671082
+player_background=-15437536
 player_progress=-8726281
 player_progressBackground=-9013641
 player_time=-6384199
@@ -258,7 +259,7 @@ profile_verifiedCheck=-1
 // Settings
 windowBackgroundGrayShadow=-13816580
 windowBackgroundWhiteHintText=-9013641
-windowBackgroundWhiteInputField=-15329497
+windowBackgroundWhiteInputField=-15437536
 windowBackgroundWhiteInputFieldActivated=-8726281
 
 // Features stickers
@@ -294,4 +295,4 @@ calls_callReceivedGreenIcon=-6657178
 calls_callReceivedRedIcon=-523762
 
 // Chat wallpaper (background)
-chat_wallpaper=-14671082 
+chat_wallpaper=-15437536 
