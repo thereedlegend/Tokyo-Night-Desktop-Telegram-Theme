@@ -104,7 +104,7 @@ boxTextFg: TOKYO_FG;
 boxTextFgGood: TOKYO_GREEN;
 boxTextFgError: TOKYO_RED;
 boxTitleFg: TOKYO_FG;
-boxSearchBg: TOKYO_BG_STORM;
+boxSearchBg: #141520;
 boxTitleAdditionalFg: TOKYO_FG_DARK;
 boxTitleCloseFg: TOKYO_FG_DARK;
 boxTitleCloseFgOver: TOKYO_FG;

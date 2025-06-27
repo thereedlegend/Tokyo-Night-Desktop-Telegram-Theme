@@ -64,7 +64,7 @@ dialogButtonSelector=-13158600
 dialogLinkSelection=-13158600
 
 // Dialog controls
-dialogInputField=-9013641
+dialogInputField=-15329497
 dialogInputFieldActivated=-8726281
 dialogCheckboxSquareBackground=-8726281
 dialogCheckboxSquareCheck=-1
@@ -258,7 +258,7 @@ profile_verifiedCheck=-1
 // Settings
 windowBackgroundGrayShadow=-13816580
 windowBackgroundWhiteHintText=-9013641
-windowBackgroundWhiteInputField=-9013641
+windowBackgroundWhiteInputField=-15329497
 windowBackgroundWhiteInputFieldActivated=-8726281
 
 // Features stickers
