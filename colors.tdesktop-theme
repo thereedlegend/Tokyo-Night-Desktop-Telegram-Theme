@@ -18,7 +18,7 @@ TOKYO_ORANGE: #ff9e64;
 TOKYO_RED: #f7768e;
 
 // Window
-windowBg: TOKYO_BG;
+windowBg: #141520;
 windowFg: TOKYO_FG;
 windowBgOver: TOKYO_BG_STORM;
 windowBgRipple: #2a2e42;
@@ -99,7 +99,7 @@ menuFgDisabled: TOKYO_COMMENT;
 menuSeparatorFg: #343a50;
 
 // Boxes
-boxBg: TOKYO_BG;
+boxBg: #141520;
 boxTextFg: TOKYO_FG;
 boxTextFgGood: TOKYO_GREEN;
 boxTextFgError: TOKYO_RED;
