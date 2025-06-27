@@ -118,7 +118,7 @@ cancelIconFgOver: TOKYO_FG;
 
 // Input
 filterInputBorderFg: TOKYO_BLUE;
-filterInputInactiveBg: TOKYO_BG_STORM;
+filterInputInactiveBg: #141520;
 inputBorderFg: #141520;
 activeLineFg: TOKYO_BLUE;
 activeLineFgError: TOKYO_RED;
@@ -408,7 +408,7 @@ emojiPanHeaderFg: TOKYO_FG;
 // Sticker
 stickerPanDeleteBg: TOKYO_RED;
 stickerPanDeleteFg: #ffffff;
-stickerPreviewBg: #00000080;
+stickerPreviewBg: #141520;
 
 // Mediaview
 mediaviewBg: #1a1b2680;
