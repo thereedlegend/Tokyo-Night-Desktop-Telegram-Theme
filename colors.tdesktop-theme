@@ -30,8 +30,8 @@ windowBoldFgOver: TOKYO_FG;
 windowBgActive: TOKYO_BLUE;
 windowFgActive: #ffffff;
 windowActiveTextFg: TOKYO_BLUE;
-windowShadowFg: #00000070;
-windowShadowFgFallback: #00000070;
+windowShadowFg: #00000090;
+windowShadowFgFallback: #00000090;
 
 // Sidebar (папки)
 sideBarBg: TOKYO_BG;
@@ -119,7 +119,7 @@ cancelIconFgOver: TOKYO_FG;
 // Input
 filterInputBorderFg: TOKYO_BLUE;
 filterInputInactiveBg: TOKYO_BG_STORM;
-inputBorderFg: #343a50;
+inputBorderFg: #2a2e42;
 activeLineFg: TOKYO_BLUE;
 activeLineFgError: TOKYO_RED;
 placeholderFg: TOKYO_COMMENT;
@@ -146,7 +146,7 @@ titleButtonCloseFgOver: #ffffff;
 titleButtonCloseFgActiveOver: #ffffff;
 titleFg: TOKYO_FG_DARK;
 titleFgActive: TOKYO_FG;
-titleShadow: #00000070;
+titleShadow: #00000090;
 
 // Dialogs
 dialogsBg: TOKYO_BG;
@@ -247,10 +247,10 @@ msgOutServiceFgSelected: TOKYO_CYAN;
 msgInMonoFg: TOKYO_GREEN;
 msgOutMonoFg: TOKYO_GREEN;
 
-msgInShadow: #00000050;
-msgInShadowSelected: #00000050;
-msgOutShadow: #00000050;
-msgOutShadowSelected: #00000050;
+msgInShadow: #00000070;
+msgInShadowSelected: #00000070;
+msgOutShadow: #00000070;
+msgOutShadowSelected: #00000070;
 
 // Files
 msgFile1Bg: TOKYO_BLUE;
@@ -318,7 +318,7 @@ msgWaveformOutInactive: TOKYO_COMMENT;
 msgWaveformOutInactiveSelected: TOKYO_COMMENT;
 
 // Compose
-historyComposeAreaBg: #171821;
+historyComposeAreaBg: #141520;
 historyComposeAreaFg: TOKYO_FG;
 historyComposeAreaFgService: TOKYO_FG_DARK;
 historyComposeIconFg: TOKYO_FG_DARK;
@@ -400,7 +400,7 @@ tooltipFg: TOKYO_FG;
 tooltipBorderFg: #343a50;
 
 // Emoji
-emojiPanBg: #171821;
+emojiPanBg: #141520;
 emojiPanCategories: TOKYO_BG_STORM;
 emojiPanHeaderBg: TOKYO_BG_STORM;
 emojiPanHeaderFg: TOKYO_FG;
@@ -524,7 +524,7 @@ slideFadeOutBg: TOKYO_BG;
 slideFadeOutShadowFg: #00000030;
 
 // Shadow
-shadowFg: #00000050;
+shadowFg: #00000070;
 
 // Bot keyboard
 msgBotKbOverBgAdd: #7aa2f730;
