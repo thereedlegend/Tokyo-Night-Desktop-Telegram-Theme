@@ -30,8 +30,37 @@ windowBoldFgOver: TOKYO_FG;
 windowBgActive: TOKYO_BLUE;
 windowFgActive: #ffffff;
 windowActiveTextFg: TOKYO_BLUE;
-windowShadowFg: #00000050;
-windowShadowFgFallback: #00000050;
+windowShadowFg: #00000070;
+windowShadowFgFallback: #00000070;
+
+// Sidebar (папки)
+sideBarBg: TOKYO_BG;
+leftColumnBg: TOKYO_BG;
+foldersCategoryBg: TOKYO_BG;
+foldersCategoryBgOver: TOKYO_BG_STORM;
+foldersCategoryBgActive: TOKYO_BG_STORM;
+foldersCategoryFg: TOKYO_FG_DARK;
+foldersCategoryFgOver: TOKYO_FG;
+foldersCategoryFgActive: TOKYO_FG;
+sideBarIconFg: TOKYO_FG_DARK;
+sideBarIconFgOver: TOKYO_FG;
+sideBarIconFgActive: TOKYO_BLUE;
+sideBarTextFg: TOKYO_FG_DARK;
+sideBarTextFgOver: TOKYO_FG;
+sideBarTextFgActive: TOKYO_FG;
+sideBarBadgeBg: TOKYO_BLUE;
+sideBarBadgeBgMuted: TOKYO_COMMENT;
+sideBarBadgeFg: #ffffff;
+
+// Filter tabs (вкладки фильтров)
+filterTabsBg: TOKYO_BG;
+filterTabsActiveBg: TOKYO_BG_STORM;
+filterTabsActiveTextFg: TOKYO_FG;
+filterTabsInactiveTextFg: TOKYO_FG_DARK;
+
+// Navigation
+navigationBg: TOKYO_BG;
+navigationFg: TOKYO_FG_DARK;
 
 // Buttons
 activeButtonBg: TOKYO_BLUE;
@@ -117,7 +146,7 @@ titleButtonCloseFgOver: #ffffff;
 titleButtonCloseFgActiveOver: #ffffff;
 titleFg: TOKYO_FG_DARK;
 titleFgActive: TOKYO_FG;
-titleShadow: #00000050;
+titleShadow: #00000070;
 
 // Dialogs
 dialogsBg: TOKYO_BG;
@@ -218,10 +247,10 @@ msgOutServiceFgSelected: TOKYO_CYAN;
 msgInMonoFg: TOKYO_GREEN;
 msgOutMonoFg: TOKYO_GREEN;
 
-msgInShadow: #00000030;
-msgInShadowSelected: #00000030;
-msgOutShadow: #00000030;
-msgOutShadowSelected: #00000030;
+msgInShadow: #00000050;
+msgInShadowSelected: #00000050;
+msgOutShadow: #00000050;
+msgOutShadowSelected: #00000050;
 
 // Files
 msgFile1Bg: TOKYO_BLUE;
@@ -289,7 +318,7 @@ msgWaveformOutInactive: TOKYO_COMMENT;
 msgWaveformOutInactiveSelected: TOKYO_COMMENT;
 
 // Compose
-historyComposeAreaBg: TOKYO_BG;
+historyComposeAreaBg: #171821;
 historyComposeAreaFg: TOKYO_FG;
 historyComposeAreaFgService: TOKYO_FG_DARK;
 historyComposeIconFg: TOKYO_FG_DARK;
@@ -339,7 +368,7 @@ historyToDownBgOver: #2d3348;
 historyToDownBgRipple: #343a50;
 historyToDownFg: TOKYO_FG_DARK;
 historyToDownFgOver: TOKYO_FG;
-historyToDownShadow: #00000030;
+historyToDownShadow: #00000050;
 
 // Unread
 historyUnreadBarBg: TOKYO_BG_STORM;
@@ -371,7 +400,7 @@ tooltipFg: TOKYO_FG;
 tooltipBorderFg: #343a50;
 
 // Emoji
-emojiPanBg: TOKYO_BG;
+emojiPanBg: #171821;
 emojiPanCategories: TOKYO_BG_STORM;
 emojiPanHeaderBg: TOKYO_BG_STORM;
 emojiPanHeaderFg: TOKYO_FG;
@@ -382,11 +411,11 @@ stickerPanDeleteFg: #ffffff;
 stickerPreviewBg: #00000080;
 
 // Mediaview
-mediaviewBg: #000000;
-mediaviewVideoBg: #000000;
+mediaviewBg: #1a1b2680;
+mediaviewVideoBg: #1a1b2680;
 mediaviewControlBg: #00000080;
 mediaviewControlFg: #ffffff;
-mediaviewCaptionBg: #00000080;
+mediaviewCaptionBg: #1a1b2690;
 mediaviewCaptionFg: #ffffff;
 mediaviewTextLinkFg: TOKYO_BLUE;
 mediaviewSaveMsgBg: TOKYO_BG_STORM;
@@ -431,7 +460,7 @@ notificationsBoxMonitorFg: TOKYO_FG_DARK;
 notificationsBoxScreenBg: TOKYO_BG;
 
 // Main menu
-mainMenuBg: TOKYO_BG_STORM;
+mainMenuBg: TOKYO_BG;
 mainMenuCoverBg: TOKYO_BLUE;
 mainMenuCoverFg: #ffffff;
 
@@ -495,7 +524,7 @@ slideFadeOutBg: TOKYO_BG;
 slideFadeOutShadowFg: #00000030;
 
 // Shadow
-shadowFg: #00000030;
+shadowFg: #00000050;
 
 // Bot keyboard
 msgBotKbOverBgAdd: #7aa2f730;

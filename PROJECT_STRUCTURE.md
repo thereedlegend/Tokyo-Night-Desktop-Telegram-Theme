@@ -4,10 +4,14 @@
 
 ```
 Tokyo Night Desktop Telegram Theme/
-├── 📄 colors.tdesktop-theme          # Основной файл цветовой схемы
+├── 📄 colors.tdesktop-theme          # Desktop цветовая схема
+├── 📱 Tokyo_Night.attheme            # Android тема
 ├── 🎨 background.svg                 # SVG шаблон фонового изображения
-├── 🚀 QUICK_START.md                 # Быстрый старт (2 минуты)
-├── 📖 README.md                      # Полная документация
+├── 🚀 QUICK_START.md                 # Быстрый старт (Desktop)
+├── 📱 QUICK_START_Android.md         # Быстрый старт (Android)
+├── 📖 README.md                      # Главная документация
+├── 📱 README_Android.md              # Документация для Android
+├── 📝 CHANGELOG.md                   # История изменений
 ├── 🎨 create_background.md           # Инструкции по созданию фона
 ├── 🔧 create_theme.bat               # Скрипт сборки для Windows
 ├── 🔧 create_theme.sh                # Скрипт сборки для Linux/macOS
@@ -18,11 +22,17 @@ Tokyo Night Desktop Telegram Theme/
 
 ### 🎨 Основные файлы темы
 
-**`colors.tdesktop-theme`**
-- Основной файл цветовой схемы Tokyo Night
+**`colors.tdesktop-theme`** - Desktop тема
+- Цветовая схема Tokyo Night для Telegram Desktop
 - Содержит 300+ настроек цветов для всех элементов интерфейса
 - Можно использовать как отдельную тему (простая установка)
 - Готов к использованию - просто перетащите в Telegram Desktop
+
+**`Tokyo_Night.attheme`** - Android тема
+- Цветовая схема Tokyo Night для Telegram Android
+- Формат signed 32-bit integers для цветов
+- Совместима с официальным Telegram и его форками
+- Поддержка встроенного редактора тем Android
 
 **`background.svg`**
 - SVG шаблон для создания фонового изображения
@@ -39,10 +49,27 @@ Tokyo Night Desktop Telegram Theme/
 - 🎯 Особенности темы
 - 🤝 Информация о вкладе в проект
 
-**`QUICK_START.md`** - Быстрый старт
+**`QUICK_START.md`** - Быстрый старт (Desktop)
 - ⚡ Установка за 2 минуты
 - 🎯 Только самое необходимое
 - 🆘 Решение основных проблем
+
+**`QUICK_START_Android.md`** - Быстрый старт (Android)
+- ⚡ Установка за 1 минуту
+- 📱 Простые шаги для Android
+- 🆘 Решение типичных проблем
+
+**`README_Android.md`** - Android документация
+- 📱 Полное руководство для Android версии
+- 📥 Методы установки .attheme файлов
+- 🎨 Кастомизация и настройка
+- 🔢 Объяснение формата Android цветов
+
+**`CHANGELOG.md`** - История изменений
+- 📝 Подробное описание всех обновлений
+- 🔧 Исправления багов и улучшения
+- 🎨 Изменения цветовой схемы
+- 🚀 Инструкции по обновлению
 
 **`create_background.md`** - Создание фона
 - 🎨 4 способа создания фонового изображения
