@@ -119,7 +119,7 @@ cancelIconFgOver: TOKYO_FG;
 // Input
 filterInputBorderFg: TOKYO_BLUE;
 filterInputInactiveBg: TOKYO_BG_STORM;
-inputBorderFg: #2a2e42;
+inputBorderFg: #141520;
 activeLineFg: TOKYO_BLUE;
 activeLineFgError: TOKYO_RED;
 placeholderFg: TOKYO_COMMENT;
@@ -330,12 +330,12 @@ historyComposeButtonBg: TOKYO_BLUE;
 historyComposeButtonBgOver: #8ab4f8;
 historyComposeButtonBgRipple: #5a8de8;
 
-historyReplyBg: TOKYO_BG_STORM;
+historyReplyBg: #141520;
 historyReplyIconFg: TOKYO_BLUE;
 historyReplyCancelFg: TOKYO_FG_DARK;
 historyReplyCancelFgOver: TOKYO_FG;
 
-historyPinnedBg: TOKYO_BG_STORM;
+historyPinnedBg: #141520;
 
 // Peer names
 historyPeer1NameFg: TOKYO_RED;
@@ -401,8 +401,8 @@ tooltipBorderFg: #343a50;
 
 // Emoji
 emojiPanBg: #141520;
-emojiPanCategories: TOKYO_BG_STORM;
-emojiPanHeaderBg: TOKYO_BG_STORM;
+emojiPanCategories: #141520;
+emojiPanHeaderBg: #141520;
 emojiPanHeaderFg: TOKYO_FG;
 
 // Sticker
