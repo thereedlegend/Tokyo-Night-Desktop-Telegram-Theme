@@ -1,0 +1,506 @@
+// Tokyo Night Theme for Telegram Desktop
+// Based on Tokyo Night VSCode Theme color palette
+// Created for Windows
+
+// Tokyo Night Colors
+TOKYO_BG: #1a1b26;
+TOKYO_BG_STORM: #24283b;
+TOKYO_FG: #c0caf5;
+TOKYO_FG_DARK: #a9b1d6;
+TOKYO_FG_DARKER: #9aa5ce;
+TOKYO_COMMENT: #565f89;
+TOKYO_BLUE: #7aa2f7;
+TOKYO_PURPLE: #bb9af7;
+TOKYO_CYAN: #73daca;
+TOKYO_GREEN: #9ece6a;
+TOKYO_YELLOW: #e0af68;
+TOKYO_ORANGE: #ff9e64;
+TOKYO_RED: #f7768e;
+
+// Window
+windowBg: TOKYO_BG;
+windowFg: TOKYO_FG;
+windowBgOver: TOKYO_BG_STORM;
+windowBgRipple: #2a2e42;
+windowFgOver: TOKYO_FG;
+windowSubTextFg: TOKYO_FG_DARK;
+windowSubTextFgOver: TOKYO_FG;
+windowBoldFg: TOKYO_FG;
+windowBoldFgOver: TOKYO_FG;
+windowBgActive: TOKYO_BLUE;
+windowFgActive: #ffffff;
+windowActiveTextFg: TOKYO_BLUE;
+windowShadowFg: #00000050;
+windowShadowFgFallback: #00000050;
+
+// Buttons
+activeButtonBg: TOKYO_BLUE;
+activeButtonBgOver: #8ab4f8;
+activeButtonBgRipple: #5a8de8;
+activeButtonFg: #ffffff;
+activeButtonFgOver: #ffffff;
+activeButtonSecondaryFg: #ffffff;
+activeButtonSecondaryFgOver: #ffffff;
+
+attentionButtonBg: TOKYO_RED;
+attentionButtonBgOver: #f98ba3;
+attentionButtonBgRipple: #f56581;
+attentionButtonFg: #ffffff;
+attentionButtonFgOver: #ffffff;
+
+lightButtonBg: TOKYO_BG_STORM;
+lightButtonBgOver: #2d3348;
+lightButtonBgRipple: #343a50;
+lightButtonFg: TOKYO_FG;
+lightButtonFgOver: TOKYO_FG;
+
+outlineButtonBg: TOKYO_BG;
+outlineButtonBgOver: TOKYO_BG_STORM;
+outlineButtonBgRipple: #2a2e42;
+outlineButtonOutlineFg: TOKYO_BLUE;
+
+// Menu
+menuBg: TOKYO_BG_STORM;
+menuBgOver: #2d3348;
+menuBgRipple: #343a50;
+menuIconFg: TOKYO_FG_DARK;
+menuIconFgOver: TOKYO_FG;
+menuSubmenuArrowFg: TOKYO_FG_DARK;
+menuFgDisabled: TOKYO_COMMENT;
+menuSeparatorFg: #343a50;
+
+// Boxes
+boxBg: TOKYO_BG;
+boxTextFg: TOKYO_FG;
+boxTextFgGood: TOKYO_GREEN;
+boxTextFgError: TOKYO_RED;
+boxTitleFg: TOKYO_FG;
+boxSearchBg: TOKYO_BG_STORM;
+boxTitleAdditionalFg: TOKYO_FG_DARK;
+boxTitleCloseFg: TOKYO_FG_DARK;
+boxTitleCloseFgOver: TOKYO_FG;
+
+// Layer
+layerBg: #00000070;
+
+// Cancel
+cancelIconFg: TOKYO_FG_DARK;
+cancelIconFgOver: TOKYO_FG;
+
+// Input
+filterInputBorderFg: TOKYO_BLUE;
+filterInputInactiveBg: TOKYO_BG_STORM;
+inputBorderFg: #343a50;
+activeLineFg: TOKYO_BLUE;
+activeLineFgError: TOKYO_RED;
+placeholderFg: TOKYO_COMMENT;
+placeholderFgActive: TOKYO_FG_DARK;
+
+// Title
+titleBg: TOKYO_BG;
+titleBgActive: TOKYO_BG;
+titleButtonBg: TOKYO_BG;
+titleButtonBgActive: TOKYO_BG;
+titleButtonBgOver: TOKYO_BG_STORM;
+titleButtonBgActiveOver: TOKYO_BG_STORM;
+titleButtonCloseBg: TOKYO_BG;
+titleButtonCloseBgActive: TOKYO_BG;
+titleButtonCloseBgOver: TOKYO_RED;
+titleButtonCloseBgActiveOver: TOKYO_RED;
+titleButtonFg: TOKYO_FG_DARK;
+titleButtonFgActive: TOKYO_FG_DARK;
+titleButtonFgOver: TOKYO_FG;
+titleButtonFgActiveOver: TOKYO_FG;
+titleButtonCloseFg: TOKYO_FG_DARK;
+titleButtonCloseFgActive: TOKYO_FG_DARK;
+titleButtonCloseFgOver: #ffffff;
+titleButtonCloseFgActiveOver: #ffffff;
+titleFg: TOKYO_FG_DARK;
+titleFgActive: TOKYO_FG;
+titleShadow: #00000050;
+
+// Dialogs
+dialogsBg: TOKYO_BG;
+dialogsNameFg: TOKYO_FG;
+dialogsChatIconFg: TOKYO_FG_DARK;
+dialogsDateFg: TOKYO_FG_DARK;
+dialogsTextFg: TOKYO_FG_DARKER;
+dialogsTextFgService: TOKYO_CYAN;
+dialogsDraftFg: TOKYO_RED;
+dialogsVerifiedIconBg: TOKYO_BLUE;
+dialogsVerifiedIconFg: #ffffff;
+dialogsSendingIconFg: TOKYO_YELLOW;
+dialogsSentIconFg: TOKYO_GREEN;
+dialogsUnreadBg: TOKYO_BLUE;
+dialogsUnreadBgMuted: TOKYO_COMMENT;
+dialogsUnreadFg: #ffffff;
+
+dialogsBgActive: TOKYO_BG_STORM;
+dialogsNameFgActive: TOKYO_FG;
+dialogsChatIconFgActive: TOKYO_FG;
+dialogsDateFgActive: TOKYO_FG;
+dialogsTextFgActive: TOKYO_FG_DARK;
+dialogsTextFgServiceActive: TOKYO_CYAN;
+dialogsDraftFgActive: TOKYO_RED;
+dialogsVerifiedIconBgActive: TOKYO_BLUE;
+dialogsVerifiedIconFgActive: #ffffff;
+dialogsSendingIconFgActive: TOKYO_YELLOW;
+dialogsSentIconFgActive: TOKYO_GREEN;
+dialogsUnreadBgActive: TOKYO_BLUE;
+dialogsUnreadBgMutedActive: TOKYO_COMMENT;
+dialogsUnreadFgActive: #ffffff;
+
+dialogsBgOver: #232530;
+dialogsNameFgOver: TOKYO_FG;
+dialogsChatIconFgOver: TOKYO_FG;
+dialogsDateFgOver: TOKYO_FG;
+dialogsTextFgOver: TOKYO_FG_DARK;
+dialogsTextFgServiceOver: TOKYO_CYAN;
+dialogsDraftFgOver: TOKYO_RED;
+dialogsVerifiedIconBgOver: TOKYO_BLUE;
+dialogsVerifiedIconFgOver: #ffffff;
+dialogsSendingIconFgOver: TOKYO_YELLOW;
+dialogsSentIconFgOver: TOKYO_GREEN;
+dialogsUnreadBgOver: TOKYO_BLUE;
+dialogsUnreadBgMutedOver: TOKYO_COMMENT;
+dialogsUnreadFgOver: #ffffff;
+
+dialogsMenuIconFg: TOKYO_FG_DARK;
+dialogsMenuIconFgOver: TOKYO_FG;
+
+dialogsForwardBg: TOKYO_BG_STORM;
+dialogsForwardFg: TOKYO_FG;
+
+// Search
+searchedBarBg: TOKYO_BG_STORM;
+searchedBarFg: TOKYO_FG;
+
+// History
+historyTextInFg: TOKYO_FG;
+historyTextOutFg: TOKYO_FG;
+historyCaptionInFg: TOKYO_FG_DARK;
+historyCaptionOutFg: TOKYO_FG_DARK;
+historyFileNameInFg: TOKYO_FG;
+historyFileNameOutFg: TOKYO_FG;
+historyOutIconFg: TOKYO_GREEN;
+historyOutIconFgSelected: TOKYO_GREEN;
+historyIconFgInverted: #ffffff;
+historySendingOutIconFg: TOKYO_YELLOW;
+historySendingInIconFg: TOKYO_YELLOW;
+historySendingInvertedIconFg: TOKYO_YELLOW;
+
+// Messages
+msgInBg: TOKYO_BG_STORM;
+msgInBgSelected: #2d3348;
+msgOutBg: #2a2e42;
+msgOutBgSelected: #343a50;
+msgSelectOverlay: #7aa2f750;
+msgStickerOverlay: #7aa2f750;
+
+msgInDateFg: TOKYO_FG_DARK;
+msgInDateFgSelected: TOKYO_FG;
+msgOutDateFg: TOKYO_FG_DARK;
+msgOutDateFgSelected: TOKYO_FG;
+
+msgServiceFg: TOKYO_FG;
+msgServiceBg: #24283b80;
+msgServiceBgSelected: #2d334880;
+msgInReplyBarColor: TOKYO_BLUE;
+msgInReplyBarSelColor: TOKYO_BLUE;
+msgOutReplyBarColor: TOKYO_BLUE;
+msgOutReplyBarSelColor: TOKYO_BLUE;
+msgImgReplyBarColor: TOKYO_BLUE;
+msgInServiceFg: TOKYO_CYAN;
+msgInServiceFgSelected: TOKYO_CYAN;
+msgOutServiceFg: TOKYO_CYAN;
+msgOutServiceFgSelected: TOKYO_CYAN;
+
+msgInMonoFg: TOKYO_GREEN;
+msgOutMonoFg: TOKYO_GREEN;
+
+msgInShadow: #00000030;
+msgInShadowSelected: #00000030;
+msgOutShadow: #00000030;
+msgOutShadowSelected: #00000030;
+
+// Files
+msgFile1Bg: TOKYO_BLUE;
+msgFile1BgDark: #5a8de8;
+msgFile1BgOver: #8ab4f8;
+msgFile1BgSelected: #5a8de8;
+msgFile2Bg: TOKYO_GREEN;
+msgFile2BgDark: #7cb342;
+msgFile2BgOver: #9ccc65;
+msgFile2BgSelected: #7cb342;
+msgFile3Bg: TOKYO_RED;
+msgFile3BgDark: #e57373;
+msgFile3BgOver: #ef5350;
+msgFile3BgSelected: #e57373;
+msgFile4Bg: TOKYO_YELLOW;
+msgFile4BgDark: #ffb74d;
+msgFile4BgOver: #ffc107;
+msgFile4BgSelected: #ffb74d;
+
+msgFileInBg: TOKYO_BLUE;
+msgFileInBgOver: #8ab4f8;
+msgFileInBgSelected: #5a8de8;
+msgFileOutBg: TOKYO_BLUE;
+msgFileOutBgOver: #8ab4f8;
+msgFileOutBgSelected: #5a8de8;
+
+msgFileThumbLinkInFg: TOKYO_BLUE;
+msgFileThumbLinkInFgSelected: TOKYO_BLUE;
+msgFileThumbLinkOutFg: TOKYO_BLUE;
+msgFileThumbLinkOutFgSelected: TOKYO_BLUE;
+
+historyFileInIconFg: TOKYO_FG;
+historyFileInIconFgSelected: TOKYO_FG;
+historyFileOutIconFg: TOKYO_FG;
+historyFileOutIconFgSelected: TOKYO_FG;
+historyFileThumbIconFg: TOKYO_FG;
+historyFileThumbIconFgSelected: TOKYO_FG;
+
+historyFileInRadialFg: TOKYO_BLUE;
+historyFileInRadialFgSelected: TOKYO_BLUE;
+historyFileOutRadialFg: TOKYO_BLUE;
+historyFileOutRadialFgSelected: TOKYO_BLUE;
+historyFileThumbRadialFg: TOKYO_BLUE;
+historyFileThumbRadialFgSelected: TOKYO_BLUE;
+
+// Media
+mediaInFg: TOKYO_FG_DARK;
+mediaInFgSelected: TOKYO_FG;
+mediaOutFg: TOKYO_FG_DARK;
+mediaOutFgSelected: TOKYO_FG;
+
+msgDateImgFg: #ffffff;
+msgDateImgBg: #00000060;
+msgDateImgBgOver: #00000080;
+msgDateImgBgSelected: #00000080;
+
+// Waveform
+msgWaveformInActive: TOKYO_BLUE;
+msgWaveformInActiveSelected: TOKYO_BLUE;
+msgWaveformInInactive: TOKYO_COMMENT;
+msgWaveformInInactiveSelected: TOKYO_COMMENT;
+msgWaveformOutActive: TOKYO_BLUE;
+msgWaveformOutActiveSelected: TOKYO_BLUE;
+msgWaveformOutInactive: TOKYO_COMMENT;
+msgWaveformOutInactiveSelected: TOKYO_COMMENT;
+
+// Compose
+historyComposeAreaBg: TOKYO_BG;
+historyComposeAreaFg: TOKYO_FG;
+historyComposeAreaFgService: TOKYO_FG_DARK;
+historyComposeIconFg: TOKYO_FG_DARK;
+historyComposeIconFgOver: TOKYO_FG;
+historySendIconFg: TOKYO_BLUE;
+historySendIconFgOver: #8ab4f8;
+
+historyComposeButtonBg: TOKYO_BLUE;
+historyComposeButtonBgOver: #8ab4f8;
+historyComposeButtonBgRipple: #5a8de8;
+
+historyReplyBg: TOKYO_BG_STORM;
+historyReplyIconFg: TOKYO_BLUE;
+historyReplyCancelFg: TOKYO_FG_DARK;
+historyReplyCancelFgOver: TOKYO_FG;
+
+historyPinnedBg: TOKYO_BG_STORM;
+
+// Peer names
+historyPeer1NameFg: TOKYO_RED;
+historyPeer1UserpicBg: TOKYO_RED;
+historyPeer2NameFg: TOKYO_GREEN;
+historyPeer2UserpicBg: TOKYO_GREEN;
+historyPeer3NameFg: TOKYO_YELLOW;
+historyPeer3UserpicBg: TOKYO_YELLOW;
+historyPeer4NameFg: TOKYO_BLUE;
+historyPeer4UserpicBg: TOKYO_BLUE;
+historyPeer5NameFg: TOKYO_PURPLE;
+historyPeer5UserpicBg: TOKYO_PURPLE;
+historyPeer6NameFg: TOKYO_PURPLE;
+historyPeer6UserpicBg: TOKYO_PURPLE;
+historyPeer7NameFg: TOKYO_CYAN;
+historyPeer7UserpicBg: TOKYO_CYAN;
+historyPeer8NameFg: TOKYO_ORANGE;
+historyPeer8UserpicBg: TOKYO_ORANGE;
+historyPeerUserpicFg: #ffffff;
+
+// Scrollbar
+historyScrollBarBg: #565f8950;
+historyScrollBarBgOver: #565f89;
+historyScrollBg: #1a1b2600;
+historyScrollBgOver: #1a1b2600;
+
+// To down
+historyToDownBg: TOKYO_BG_STORM;
+historyToDownBgOver: #2d3348;
+historyToDownBgRipple: #343a50;
+historyToDownFg: TOKYO_FG_DARK;
+historyToDownFgOver: TOKYO_FG;
+historyToDownShadow: #00000030;
+
+// Unread
+historyUnreadBarBg: TOKYO_BG_STORM;
+historyUnreadBarBorder: TOKYO_BLUE;
+historyUnreadBarFg: TOKYO_FG;
+
+// Forward
+historyForwardChooseBg: TOKYO_BG_STORM;
+historyForwardChooseFg: TOKYO_FG;
+
+// Contacts
+contactsBg: TOKYO_BG;
+contactsBgOver: TOKYO_BG_STORM;
+contactsNameFg: TOKYO_FG;
+contactsStatusFg: TOKYO_FG_DARK;
+contactsStatusFgOver: TOKYO_FG;
+contactsStatusFgOnline: TOKYO_GREEN;
+
+// Checkbox
+checkboxFg: TOKYO_COMMENT;
+
+// Slider
+sliderBgInactive: TOKYO_COMMENT;
+sliderBgActive: TOKYO_BLUE;
+
+// Tooltip
+tooltipBg: TOKYO_BG_STORM;
+tooltipFg: TOKYO_FG;
+tooltipBorderFg: #343a50;
+
+// Emoji
+emojiPanBg: TOKYO_BG;
+emojiPanCategories: TOKYO_BG_STORM;
+emojiPanHeaderBg: TOKYO_BG_STORM;
+emojiPanHeaderFg: TOKYO_FG;
+
+// Sticker
+stickerPanDeleteBg: TOKYO_RED;
+stickerPanDeleteFg: #ffffff;
+stickerPreviewBg: #00000080;
+
+// Mediaview
+mediaviewBg: #000000;
+mediaviewVideoBg: #000000;
+mediaviewControlBg: #00000080;
+mediaviewControlFg: #ffffff;
+mediaviewCaptionBg: #00000080;
+mediaviewCaptionFg: #ffffff;
+mediaviewTextLinkFg: TOKYO_BLUE;
+mediaviewSaveMsgBg: TOKYO_BG_STORM;
+mediaviewSaveMsgFg: TOKYO_FG;
+mediaviewPlaybackActive: TOKYO_BLUE;
+mediaviewPlaybackActiveOver: #8ab4f8;
+mediaviewPlaybackInactive: TOKYO_COMMENT;
+mediaviewPlaybackInactiveOver: TOKYO_FG_DARK;
+mediaviewPlaybackIconFg: #ffffff;
+mediaviewPlaybackIconFgOver: #ffffff;
+mediaviewPlaybackProgressFg: #ffffff;
+mediaviewTransparentBg: #ffffff;
+mediaviewTransparentFg: #cccccc;
+
+mediaviewFileBg: TOKYO_BG;
+mediaviewFileNameFg: TOKYO_FG;
+mediaviewFileSizeFg: TOKYO_FG_DARK;
+mediaviewFileRedCornerFg: TOKYO_RED;
+mediaviewFileYellowCornerFg: TOKYO_YELLOW;
+mediaviewFileGreenCornerFg: TOKYO_GREEN;
+mediaviewFileBlueCornerFg: TOKYO_BLUE;
+mediaviewFileExtFg: #ffffff;
+
+mediaviewMenuBg: TOKYO_BG_STORM;
+mediaviewMenuBgOver: #2d3348;
+mediaviewMenuBgRipple: #343a50;
+mediaviewMenuFg: TOKYO_FG;
+
+// Media player
+mediaPlayerBg: TOKYO_BG_STORM;
+mediaPlayerActiveFg: TOKYO_BLUE;
+mediaPlayerInactiveFg: TOKYO_COMMENT;
+mediaPlayerDisabledFg: TOKYO_COMMENT;
+
+// Notifications
+notificationBg: TOKYO_BG_STORM;
+notificationSampleUserpicFg: TOKYO_FG_DARK;
+notificationSampleCloseFg: TOKYO_FG_DARK;
+notificationSampleTextFg: TOKYO_FG;
+notificationSampleNameFg: TOKYO_FG;
+notificationsBoxMonitorFg: TOKYO_FG_DARK;
+notificationsBoxScreenBg: TOKYO_BG;
+
+// Main menu
+mainMenuBg: TOKYO_BG_STORM;
+mainMenuCoverBg: TOKYO_BLUE;
+mainMenuCoverFg: #ffffff;
+
+// Intro
+introBg: TOKYO_BG;
+introTitleFg: TOKYO_FG;
+introDescriptionFg: TOKYO_FG_DARK;
+introErrorFg: TOKYO_RED;
+introCoverTopBg: TOKYO_BLUE;
+introCoverBottomBg: TOKYO_PURPLE;
+introCoverIconsFg: #ffffff;
+introCoverPlaneTrace: #ffffff;
+introCoverPlaneInner: #ffffff;
+introCoverPlaneOuter: #ffffff;
+introCoverPlaneTop: #ffffff;
+
+// Overview
+overviewCheckBg: #00000000;
+overviewCheckFg: TOKYO_BG;
+overviewCheckFgActive: TOKYO_BLUE;
+overviewPhotoSelectOverlay: #7aa2f750;
+
+// Profile
+profileStatusFgOver: TOKYO_FG;
+profileVerifiedCheckBg: TOKYO_BLUE;
+profileVerifiedCheckFg: #ffffff;
+profileAdminStartFg: TOKYO_YELLOW;
+
+// Photo crop
+photoCropFadeBg: #00000080;
+photoCropPointFg: #ffffff;
+
+// Report spam
+reportSpamBg: TOKYO_BG_STORM;
+reportSpamFg: TOKYO_FG;
+
+// Scrollbar
+scrollBarBg: #565f8950;
+scrollBarBgOver: #565f89;
+scrollBg: #1a1b2600;
+scrollBgOver: #1a1b2600;
+
+// Small icons
+smallCloseIconFg: TOKYO_FG_DARK;
+smallCloseIconFgOver: TOKYO_FG;
+
+// Radial
+radialBg: #00000050;
+radialFg: #ffffff;
+
+// Image
+imageBg: TOKYO_BG;
+imageBgTransparent: #ffffff;
+
+// Toast
+toastBg: TOKYO_BG_STORM;
+toastFg: TOKYO_FG;
+
+// Slide
+slideFadeOutBg: TOKYO_BG;
+slideFadeOutShadowFg: #00000030;
+
+// Shadow
+shadowFg: #00000030;
+
+// Bot keyboard
+msgBotKbOverBgAdd: #7aa2f730;
+msgBotKbIconFg: TOKYO_FG;
+msgBotKbRippleBg: #7aa2f750;
+
+// Members
+membersAboutLimitFg: TOKYO_FG_DARK; 
