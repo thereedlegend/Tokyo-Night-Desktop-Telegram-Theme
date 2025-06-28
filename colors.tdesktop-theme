@@ -27,7 +27,7 @@ windowSubTextFg: TOKYO_FG_DARK;
 windowSubTextFgOver: TOKYO_FG;
 windowBoldFg: TOKYO_FG;
 windowBoldFgOver: TOKYO_FG;
-windowBgActive: #141520;
+windowBgActive: TOKYO_BG_STORM;
 windowFgActive: TOKYO_BLUE;
 windowActiveTextFg: TOKYO_BLUE;
 windowShadowFg: #00000090;
@@ -321,14 +321,16 @@ msgWaveformOutInactiveSelected: TOKYO_COMMENT;
 historyComposeAreaBg: #141520;
 historyComposeAreaFg: TOKYO_FG;
 historyComposeAreaFgService: TOKYO_FG_DARK;
-historyComposeIconFg: TOKYO_FG_DARK;
-historyComposeIconFgOver: TOKYO_FG;
+historyComposeIconFg: TOKYO_BLUE;
+historyComposeIconFgOver: #8ab4f8;
+historyComposeIconFgActive: TOKYO_BLUE;
 historySendIconFg: TOKYO_BLUE;
 historySendIconFgOver: #8ab4f8;
 
 historyComposeButtonBg: #141520;
 historyComposeButtonBgOver: #1a1b26;
 historyComposeButtonBgRipple: #24283b;
+historyComposeButtonBgActive: #141520;
 
 historyReplyBg: #141520;
 historyReplyIconFg: TOKYO_BLUE;
@@ -408,7 +410,7 @@ emojiPanHeaderFg: TOKYO_FG;
 // Sticker
 stickerPanDeleteBg: TOKYO_RED;
 stickerPanDeleteFg: #ffffff;
-stickerPreviewBg: #141520;
+stickerPreviewBg: #1a1b2680;
 
 // Mediaview
 mediaviewBg: #1a1b2680;
