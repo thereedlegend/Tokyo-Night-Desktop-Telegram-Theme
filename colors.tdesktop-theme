@@ -27,16 +27,16 @@ windowSubTextFg: TOKYO_FG_DARK;
 windowSubTextFgOver: TOKYO_FG;
 windowBoldFg: TOKYO_FG;
 windowBoldFgOver: TOKYO_FG;
-windowBgActive: TOKYO_BLUE;
-windowFgActive: #ffffff;
+windowBgActive: #141520;
+windowFgActive: TOKYO_BLUE;
 windowActiveTextFg: TOKYO_BLUE;
 windowShadowFg: #00000090;
 windowShadowFgFallback: #00000090;
 
 // Sidebar (папки)
-sideBarBg: TOKYO_BG;
-leftColumnBg: TOKYO_BG;
-foldersCategoryBg: TOKYO_BG;
+sideBarBg: #141520;
+leftColumnBg: #141520;
+foldersCategoryBg: #141520;
 foldersCategoryBgOver: TOKYO_BG_STORM;
 foldersCategoryBgActive: TOKYO_BG_STORM;
 foldersCategoryFg: TOKYO_FG_DARK;
@@ -53,19 +53,19 @@ sideBarBadgeBgMuted: TOKYO_COMMENT;
 sideBarBadgeFg: #ffffff;
 
 // Filter tabs (вкладки фильтров)
-filterTabsBg: TOKYO_BG;
+filterTabsBg: #141520;
 filterTabsActiveBg: TOKYO_BG_STORM;
 filterTabsActiveTextFg: TOKYO_FG;
 filterTabsInactiveTextFg: TOKYO_FG_DARK;
 
 // Navigation
-navigationBg: TOKYO_BG;
+navigationBg: #141520;
 navigationFg: TOKYO_FG_DARK;
 
 // Buttons
-activeButtonBg: TOKYO_BLUE;
-activeButtonBgOver: #8ab4f8;
-activeButtonBgRipple: #5a8de8;
+activeButtonBg: #4a5164;
+activeButtonBgOver: #5c6579;
+activeButtonBgRipple: #6e7596;
 activeButtonFg: #ffffff;
 activeButtonFgOver: #ffffff;
 activeButtonSecondaryFg: #ffffff;
@@ -77,15 +77,15 @@ attentionButtonBgRipple: #f56581;
 attentionButtonFg: #ffffff;
 attentionButtonFgOver: #ffffff;
 
-lightButtonBg: TOKYO_BG_STORM;
-lightButtonBgOver: #2d3348;
-lightButtonBgRipple: #343a50;
-lightButtonFg: TOKYO_FG;
-lightButtonFgOver: TOKYO_FG;
+lightButtonBg: #4a5164;
+lightButtonBgOver: #5c6579;
+lightButtonBgRipple: #6e7596;
+lightButtonFg: #ffffff;
+lightButtonFgOver: #ffffff;
 
-outlineButtonBg: TOKYO_BG;
-outlineButtonBgOver: TOKYO_BG_STORM;
-outlineButtonBgRipple: #2a2e42;
+outlineButtonBg: #4a5164;
+outlineButtonBgOver: #5c6579;
+outlineButtonBgRipple: #6e7596;
 outlineButtonOutlineFg: TOKYO_BLUE;
 
 // Menu
@@ -144,12 +144,12 @@ titleButtonCloseFg: TOKYO_FG_DARK;
 titleButtonCloseFgActive: TOKYO_FG_DARK;
 titleButtonCloseFgOver: #ffffff;
 titleButtonCloseFgActiveOver: #ffffff;
-titleFg: TOKYO_FG_DARK;
-titleFgActive: TOKYO_FG;
+titleFg: #ffffff;
+titleFgActive: #ffffff;
 titleShadow: #00000090;
 
 // Dialogs
-dialogsBg: TOKYO_BG;
+dialogsBg: #141520;
 dialogsNameFg: TOKYO_FG;
 dialogsChatIconFg: TOKYO_FG_DARK;
 dialogsDateFg: TOKYO_FG_DARK;
@@ -232,8 +232,8 @@ msgOutDateFg: TOKYO_FG_DARK;
 msgOutDateFgSelected: TOKYO_FG;
 
 msgServiceFg: TOKYO_FG;
-msgServiceBg: #24283b80;
-msgServiceBgSelected: #2d334880;
+msgServiceBg: #2d334880;
+msgServiceBgSelected: #3e466080;
 msgInReplyBarColor: TOKYO_BLUE;
 msgInReplyBarSelColor: TOKYO_BLUE;
 msgOutReplyBarColor: TOKYO_BLUE;
@@ -326,9 +326,9 @@ historyComposeIconFgOver: TOKYO_FG;
 historySendIconFg: TOKYO_BLUE;
 historySendIconFgOver: #8ab4f8;
 
-historyComposeButtonBg: TOKYO_BLUE;
-historyComposeButtonBgOver: #8ab4f8;
-historyComposeButtonBgRipple: #5a8de8;
+historyComposeButtonBg: #141520;
+historyComposeButtonBgOver: #1a1b26;
+historyComposeButtonBgRipple: #24283b;
 
 historyReplyBg: #141520;
 historyReplyIconFg: TOKYO_BLUE;
@@ -366,14 +366,14 @@ historyScrollBgOver: #1a1b2600;
 historyToDownBg: TOKYO_BG_STORM;
 historyToDownBgOver: #2d3348;
 historyToDownBgRipple: #343a50;
-historyToDownFg: TOKYO_FG_DARK;
-historyToDownFgOver: TOKYO_FG;
+historyToDownFg: #ffffff;
+historyToDownFgOver: #ffffff;
 historyToDownShadow: #00000050;
 
 // Unread
 historyUnreadBarBg: TOKYO_BG_STORM;
 historyUnreadBarBorder: TOKYO_BLUE;
-historyUnreadBarFg: TOKYO_FG;
+historyUnreadBarFg: #ffffff;
 
 // Forward
 historyForwardChooseBg: TOKYO_BG_STORM;
@@ -460,7 +460,7 @@ notificationsBoxMonitorFg: TOKYO_FG_DARK;
 notificationsBoxScreenBg: TOKYO_BG;
 
 // Main menu
-mainMenuBg: TOKYO_BG;
+mainMenuBg: #141520;
 mainMenuCoverBg: TOKYO_BLUE;
 mainMenuCoverFg: #ffffff;
 
@@ -526,10 +526,32 @@ slideFadeOutShadowFg: #00000030;
 // Shadow
 shadowFg: #00000070;
 
-// Bot keyboard
-msgBotKbOverBgAdd: #7aa2f730;
+// Bot keyboard and Inline Buttons (including Reactions and Discuss)
+msgBotKbBg: #4a5164;
+msgBotKbColor: TOKYO_FG;
+msgBotKbOverBgAdd: #5c6579;
 msgBotKbIconFg: TOKYO_FG;
-msgBotKbRippleBg: #7aa2f750;
+msgBotKbRippleBg: #6e7596;
+
+// Additional Inline Button Parameters
+msgBotKbDisabledBg: #24283b;
+msgBotKbDisabledColor: TOKYO_COMMENT;
+msgBotKbDownBg: #4a5164;
+msgBotKbDownColor: TOKYO_FG;
+
+// Channel Reactions and Discussion Buttons
+historyReactionsInlineIconFg: TOKYO_FG;
+historyReactionsInlineIconFgSelected: TOKYO_BLUE;
+historyReactionsInlineBg: #343a50;
+historyReactionsInlineBgOver: #4a5164;
+historyReactionsInlineBgSelected: TOKYO_BLUE;
+
+// Comments/Discussion Button
+historyCommentsButtonBg: #343a50;
+historyCommentsButtonBgOver: #4a5164;
+historyCommentsButtonBgRipple: #5c6579;
+historyCommentsButtonFg: TOKYO_FG;
+historyCommentsButtonFgOver: TOKYO_FG;
 
 // Members
 membersAboutLimitFg: TOKYO_FG_DARK; 
